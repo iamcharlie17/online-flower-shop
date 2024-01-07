@@ -7,9 +7,9 @@
 }
 
 header {
-  background-color: rgba(229, 84, 115, 0.10);
+  background-color: rgba(229, 84, 115, 0.1);
 }
-.banner-container{
+.banner-container {
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
@@ -18,22 +18,21 @@ header {
   justify-content: space-between;
   padding-top: 50px;
 }
-.banner-title{
+.banner-title {
   color: #272727;
   font-size: 80px;
   font-weight: 800;
-  
 }
 
-.primary-text{
-  color: rgba(39, 39, 39, 0.60);
+.primary-text {
+  color: rgba(39, 39, 39, 0.6);
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   margin: 32px 0;
 }
-.primary-btn{
-  background-color: #E55473;
+.primary-btn {
+  background-color: #e55473;
   border-radius: 8px;
   color: white;
   font-size: 20px;
@@ -42,4 +41,59 @@ header {
   border: none;
 }
 
+/* features styles */
 
+.feature-container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 200px auto;
+}
+.primary-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-intro .primary-text {
+  align-items: center;
+  padding: 10px 250px;
+  text-align: center;
+}
+
+/* flowers containter style */
+
+.flowers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+  margin-top: 100px;
+}
+.flowers-container img {
+  border-radius: 300px 300px 0 0;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  padding: 100px 30px 0 30px;
+}
+
+.pink-flowers {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.mixed-flowers {
+  background-color: rgba(5, 151, 160, 0.15);
+  width: 350px;
+}
+.yellow-flowers {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flowers-container h3{
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 10px;
+}
